@@ -1,0 +1,201 @@
+.patient-section {
+  display: grid;
+  gap: 0.5rem;
+  grid-template-columns: repeat(11, 1fr);
+  padding: 2rem;
+}
+
+.patient-section article {
+  min-height: 310px;
+  border-radius: 9px;
+}
+
+.grid-col-span-2 {
+  grid-column: span 2;
+}
+
+.grid-col-span-4 {
+  grid-column: span 4;
+}
+
+.grid-col-span-5 {
+  grid-column: span 5;
+}
+
+.grid-col-span-7 {
+  grid-column: span 7;
+}
+
+.patient-id {
+  background-color: var(--mainWhite);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  width: 15rem;
+}
+
+.patient-id img {
+  width: 5rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+}
+
+#patient-name {
+  margin-bottom: 0;
+  font-weight: bolder;
+  font-size: 1.25rem;
+}
+#patient-email {
+  margin: 0;
+  margin-top: 0.3rem;
+  color: var(--mainGrey);
+}
+
+.appointment-history {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+#past-appointement {
+  text-align: center;
+  font-weight: bold;
+}
+
+#upcoming-appointement {
+  /* margin-left: 3rem; */
+  text-align: center;
+  font-weight: bold;
+}
+
+#app-history-details {
+  margin: 0;
+  color: var(--mainGrey);
+  margin-top: 0.5rem;
+}
+
+.messageBtn {
+  background-color: var(--mainWhite);
+  width: 90%;
+  border: 0.1rem solid rgb(243, 237, 237);
+  padding: 0.5rem;
+}
+
+.patient-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--mainWhite);
+  padding: 1rem;
+}
+
+#detail-header {
+  color: var(--mainGrey);
+  font-weight: bolder;
+}
+
+.doctor-notes {
+  background-color: var(--mainWhite);
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+.notes-heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+#notes-main-heading {
+  color: var(--mainBlack);
+  font-weight: bolder;
+  font-size: 1.25rem;
+  margin: 0.7rem 0rem;
+}
+
+#sellAll-button {
+  text-decoration: none;
+  color: var(--primaryColor);
+  font-weight: bolder;
+}
+
+.notes {
+  background-color: var(--mainBackgroundColor);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 200px;
+}
+
+.notes p {
+  margin: 0;
+  padding-bottom: 0.5rem;
+}
+
+#notes a {
+  justify-content: right;
+}
+
+.btn-holder {
+  justify-content: flex-end;
+  display: flex;
+}
+#save-btn {
+  padding: 0.4rem;
+  background-color: var(--primaryColor);
+  color: var(--mainWhite);
+  border: 0;
+  border-radius: 4px;
+}
+
+.doctor-name-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.doc-date-info {
+  color: var(--mainGrey);
+  margin: 0;
+}
+.person-img {
+  height: 1rem;
+  width: 1rem;
+}
+
+#date {
+  margin-left: 7rem;
+}
+
+.documents {
+  background-color: var(--mainWhite);
+  padding: 1rem;
+  margin-left: 1rem;
+}
+
+.document-heading-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkup-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.1rem solid rgb(221, 226, 240);
+  margin-bottom: 0.5rem;
+  border-radius: 8px;
+}
+
+#doc-add-section img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.checkup-row span {
+  font-size: 1.15rem;
+}
+
+.checkup-row img {
+  width: 1.5rem;
+  height: 1.5rem;
+}

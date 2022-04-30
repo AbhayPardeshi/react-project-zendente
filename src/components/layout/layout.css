@@ -1,0 +1,8 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.7fr 5fr;
+  /* padding: 0rem 1rem; */
+}
+.section-two {
+  background-color: var(--mainBackgroundColor);
+}

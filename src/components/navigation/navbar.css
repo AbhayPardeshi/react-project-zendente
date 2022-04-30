@@ -1,0 +1,111 @@
+.section1-headerDiv {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1rem;
+}
+
+.section1-header-sub-div {
+  display: flex;
+}
+
+#main-logo {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-left: 1rem;
+}
+
+.hero-heading-div {
+  margin-left: 1rem;
+}
+
+.hero-heading-div span {
+  font-size: 0.9rem;
+}
+#hero-heading {
+  font-weight: bold;
+  font-size: 2rem;
+  color: var(--mainBlack);
+}
+
+.hero-heading-div span {
+  color: var(--mainGrey);
+}
+
+.navigation-bars {
+  font-size: 1.5rem;
+  margin: 0rem 1rem;
+  margin-top: 0.8rem;
+}
+
+.main-navigation {
+  display: flex;
+  flex-direction: column;
+  /* min-height: 70%;
+  max-height: 100vh; */
+  justify-content: space-between;
+}
+
+.navigation {
+  margin-left: 0rem;
+  margin-top: 2rem;
+}
+
+.nav-items {
+  padding: 1.25rem 0rem 1.25rem 1.5rem;
+}
+
+.nav-items a {
+  text-decoration: none;
+}
+
+.nav-items span {
+  color: var(--mainBlack);
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.active-nav {
+  background-color: var(--primaryColor);
+}
+
+.active-nav span {
+  color: var(--mainWhite);
+}
+
+.active-nav i {
+  color: var(--mainWhite);
+}
+
+.nav-icons {
+  margin-right: 1rem;
+  color: var(--mainGrey);
+}
+
+.nav-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-doc-details {
+  display: flex;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  padding-bottom: 2.5rem;
+}
+
+#sectionOne-doctor-name {
+  color: var(--mainBlack);
+  font-size: 1.25rem;
+}
+.nav-doc-details p {
+  margin: 0;
+  margin-left: 0.5rem;
+  margin-right: 4.5rem;
+}
+
+.nav-doc-details button {
+  padding: 0;
+  border: none;
+}

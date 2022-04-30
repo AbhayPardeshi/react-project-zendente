@@ -1,0 +1,87 @@
+.appointment-details {
+  background-color: var(--mainWhite);
+  padding: 1rem;
+}
+
+.appointement-history {
+  display: flex;
+  padding: 0.5rem;
+  background-color: var(--mainBackgroundColor);
+  border-radius: 8px;
+}
+
+.appointement-history a {
+  text-decoration: none;
+}
+
+.tab {
+  padding: 1rem 2rem;
+  border: 0.1rem solid whitesmoke;
+  border-radius: 8px;
+}
+
+.active-tab {
+  background-color: var(--mainWhite);
+}
+
+.treatment-details {
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  background-color: var(--mainBackgroundColor);
+  border-radius: 8px;
+}
+.treatment-details-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.treatment-details-header p {
+  margin: 0 0 1rem 0;
+}
+
+.treatment {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.5rem;
+  background-color: var(--mainWhite);
+  border-radius: 8px;
+}
+
+.treatment-two {
+  margin-top: 1rem;
+}
+
+#treatment-bold {
+  color: var(--mainBlack);
+  font-weight: bolder;
+  font-size: 1.15rem;
+}
+
+#treatment-gray {
+  color: var(--mainGrey);
+}
+
+#treatment-short-note {
+  color: var(--primaryColor);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+}
+
+#treatment-short-note img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.dropdown-btn-div {
+  display: flex;
+  gap: 1rem;
+}
+
+.dropdown-btn-div button {
+  max-height: 1rem;
+  background: transparent;
+  outline: 1px solid transparent;
+  border: 1px solid transparent;
+}
